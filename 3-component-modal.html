@@ -11,9 +11,7 @@
       <div class="max-w-4xl">
         <div class="flex items-center gap-2">
           <span class="text-2xl">⚡</span>
-          <h1 class="text-2xl font-bold text-blue-600">
-            Tailwind CSS Components
-          </h1>
+          <h1 class="text-2xl font-bold text-blue-600">Tailwind CSS Components</h1>
         </div>
       </div>
     </div>
@@ -28,8 +26,8 @@
       <section class="mb-8">
         <h3 class="mb-3 text-lg font-semibold text-gray-700">1. Modal Dasar</h3>
         <p class="mb-4 text-sm text-gray-600">
-          Modal digunakan untuk menampilkan pesan penting di atas konten utama.
-          Contoh di bawah bisa ditampilkan dengan JavaScript sederhana.
+          Modal digunakan untuk menampilkan pesan penting di atas konten utama. Contoh di bawah bisa ditampilkan dengan JavaScript
+          sederhana.
         </p>
         <button
           onclick="openModal('modal1')"
@@ -41,9 +39,7 @@
 
       <!-- 2. Modal dengan Efek Animasi -->
       <section class="mb-8">
-        <h3 class="mb-3 text-lg font-semibold text-gray-700">
-          2. Modal dengan Efek Animasi
-        </h3>
+        <h3 class="mb-3 text-lg font-semibold text-gray-700">2. Modal dengan Efek Animasi</h3>
         <button
           onclick="openModal('modal2')"
           class="rounded-lg bg-green-500 px-6 py-2.5 font-medium text-white transition duration-200 hover:bg-green-600"
@@ -54,9 +50,7 @@
 
       <!-- 3. Modal Konfirmasi -->
       <section class="mb-8">
-        <h3 class="mb-3 text-lg font-semibold text-gray-700">
-          3. Modal Konfirmasi
-        </h3>
+        <h3 class="mb-3 text-lg font-semibold text-gray-700">3. Modal Konfirmasi</h3>
         <button
           onclick="openModal('modal3')"
           class="rounded-lg bg-red-500 px-6 py-2.5 font-medium text-white transition duration-200 hover:bg-red-600"
@@ -67,36 +61,26 @@
 
       <!-- Catatan -->
       <section class="mt-12 rounded-xl bg-white p-6 shadow-md">
-        <h3
-          class="mb-4 flex items-center gap-2 text-lg font-semibold text-gray-800"
-        >
-          📘 Catatan:
-        </h3>
+        <h3 class="mb-4 flex items-center gap-2 text-lg font-semibold text-gray-800">📘 Catatan:</h3>
         <ul class="space-y-2 text-sm text-gray-700">
           <li>
-            <code class="rounded bg-blue-100 px-2 py-0.5">fixed inset-0</code> →
-            posisi tetap di seluruh layar (atas, bawah, kiri, kanan = 0).
+            <code class="rounded bg-blue-100 px-2 py-0.5">fixed inset-0</code>
+            → posisi tetap di seluruh layar (atas, bawah, kiri, kanan = 0).
           </li>
           <li>
-            <code class="rounded bg-blue-100 px-2 py-0.5">bg-black/50</code> →
-            warna overlay hitam dengan transparansi 50%.
+            <code class="rounded bg-blue-100 px-2 py-0.5">bg-black/50</code>
+            → warna overlay hitam dengan transparansi 50%.
           </li>
           <li>
-            <code class="rounded bg-blue-100 px-2 py-0.5"
-              >flex items-center justify-center</code
-            >
+            <code class="rounded bg-blue-100 px-2 py-0.5">flex items-center justify-center</code>
             → memusatkan modal di layar.
           </li>
           <li>
-            <code class="rounded bg-blue-100 px-2 py-0.5"
-              >transition-all duration-200</code
-            >
+            <code class="rounded bg-blue-100 px-2 py-0.5">transition-all duration-200</code>
             → membuat efek animasi halus.
           </li>
           <li>
-            <code class="rounded bg-blue-100 px-2 py-0.5"
-              >rounded-xl shadow-lg</code
-            >
+            <code class="rounded bg-blue-100 px-2 py-0.5">rounded-xl shadow-lg</code>
             → gaya UI modern dengan sudut membulat.
           </li>
         </ul>
@@ -104,15 +88,11 @@
     </div>
 
     <!-- Modal 1: Modal Dasar -->
-    <div
-      id="modal1"
-      class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 transition-all duration-200"
-    >
+    <div id="modal1" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 transition-all duration-200">
       <div class="mx-4 w-full max-w-md rounded-xl bg-white p-6 shadow-lg">
         <h3 class="mb-3 text-xl font-bold text-gray-800">Modal Dasar</h3>
         <p class="mb-6 text-sm text-gray-600">
-          Ini adalah contoh modal sederhana. Modal ini akan muncul di tengah
-          layar dengan overlay gelap di belakangnya.
+          Ini adalah contoh modal sederhana. Modal ini akan muncul di tengah layar dengan overlay gelap di belakangnya.
         </p>
         <div class="flex justify-end gap-3">
           <button
@@ -132,37 +112,21 @@
     </div>
 
     <!-- Modal 2: Modal dengan Animasi -->
-    <div
-      id="modal2"
-      class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50"
-    >
+    <div id="modal2" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50">
       <div
         id="modal2-content"
         class="mx-4 w-full max-w-md scale-95 transform rounded-xl bg-white p-6 opacity-0 shadow-lg transition-all duration-200"
       >
         <div class="mb-4 flex items-center gap-3">
-          <div
-            class="flex h-12 w-12 items-center justify-center rounded-full bg-green-100"
-          >
-            <svg
-              class="h-6 w-6 text-green-600"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M5 13l4 4L19 7"
-              />
+          <div class="flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
+            <svg class="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
             </svg>
           </div>
           <h3 class="text-xl font-bold text-gray-800">Dengan Animasi</h3>
         </div>
         <p class="mb-6 text-sm text-gray-600">
-          Modal ini muncul dengan efek animasi scale dan fade in untuk
-          pengalaman yang lebih smooth dan modern.
+          Modal ini muncul dengan efek animasi scale dan fade in untuk pengalaman yang lebih smooth dan modern.
         </p>
         <button
           onclick="closeModal('modal2')"
@@ -174,24 +138,14 @@
     </div>
 
     <!-- Modal 3: Modal Konfirmasi -->
-    <div
-      id="modal3"
-      class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50"
-    >
+    <div id="modal3" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50">
       <div
         id="modal3-content"
         class="mx-4 w-full max-w-md scale-95 transform rounded-xl bg-white p-6 opacity-0 shadow-lg transition-all duration-200"
       >
         <div class="mb-4 flex items-center gap-3">
-          <div
-            class="flex h-12 w-12 items-center justify-center rounded-full bg-red-100"
-          >
-            <svg
-              class="h-6 w-6 text-red-600"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
+          <div class="flex h-12 w-12 items-center justify-center rounded-full bg-red-100">
+            <svg class="h-6 w-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -202,10 +156,7 @@
           </div>
           <h3 class="text-xl font-bold text-gray-800">Konfirmasi Hapus</h3>
         </div>
-        <p class="mb-6 text-sm text-gray-600">
-          Apakah Anda yakin ingin menghapus data ini? Tindakan ini tidak dapat
-          dibatalkan.
-        </p>
+        <p class="mb-6 text-sm text-gray-600">Apakah Anda yakin ingin menghapus data ini? Tindakan ini tidak dapat dibatalkan.</p>
         <div class="flex gap-3">
           <button
             onclick="closeModal('modal3')"
