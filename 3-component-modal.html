@@ -25,38 +25,20 @@
       <!-- 1. Modal Dasar -->
       <section class="mb-8">
         <h3 class="mb-3 text-lg font-semibold text-gray-700">1. Modal Dasar</h3>
-        <p class="mb-4 text-sm text-gray-600">
-          Modal digunakan untuk menampilkan pesan penting di atas konten utama. Contoh di bawah bisa ditampilkan dengan
-          JavaScript sederhana.
-        </p>
-        <button
-          onclick="openModal('modal1')"
-          class="rounded-lg bg-blue-500 px-6 py-2.5 font-medium text-white transition duration-200 hover:bg-blue-600"
-        >
-          Tampilkan Modal
-        </button>
+        <p class="mb-4 text-sm text-gray-600">Modal digunakan untuk menampilkan pesan penting di atas konten utama. Contoh di bawah bisa ditampilkan dengan JavaScript sederhana.</p>
+        <button onclick="openModal('modal1')" class="rounded-lg bg-blue-500 px-6 py-2.5 font-medium text-white transition duration-200 hover:bg-blue-600">Tampilkan Modal</button>
       </section>
 
       <!-- 2. Modal dengan Efek Animasi -->
       <section class="mb-8">
         <h3 class="mb-3 text-lg font-semibold text-gray-700">2. Modal dengan Efek Animasi</h3>
-        <button
-          onclick="openModal('modal2')"
-          class="rounded-lg bg-green-500 px-6 py-2.5 font-medium text-white transition duration-200 hover:bg-green-600"
-        >
-          Tampilkan Modal Animasi
-        </button>
+        <button onclick="openModal('modal2')" class="rounded-lg bg-green-500 px-6 py-2.5 font-medium text-white transition duration-200 hover:bg-green-600">Tampilkan Modal Animasi</button>
       </section>
 
       <!-- 3. Modal Konfirmasi -->
       <section class="mb-8">
         <h3 class="mb-3 text-lg font-semibold text-gray-700">3. Modal Konfirmasi</h3>
-        <button
-          onclick="openModal('modal3')"
-          class="rounded-lg bg-red-500 px-6 py-2.5 font-medium text-white transition duration-200 hover:bg-red-600"
-        >
-          Hapus Data
-        </button>
+        <button onclick="openModal('modal3')" class="rounded-lg bg-red-500 px-6 py-2.5 font-medium text-white transition duration-200 hover:bg-red-600">Hapus Data</button>
       </section>
 
       <!-- Catatan -->
@@ -88,38 +70,20 @@
     </div>
 
     <!-- Modal 1: Modal Dasar -->
-    <div
-      id="modal1"
-      class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 transition-all duration-200"
-    >
+    <div id="modal1" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 transition-all duration-200">
       <div class="mx-4 w-full max-w-md rounded-xl bg-white p-6 shadow-lg">
         <h3 class="mb-3 text-xl font-bold text-gray-800">Modal Dasar</h3>
-        <p class="mb-6 text-sm text-gray-600">
-          Ini adalah contoh modal sederhana. Modal ini akan muncul di tengah layar dengan overlay gelap di belakangnya.
-        </p>
+        <p class="mb-6 text-sm text-gray-600">Ini adalah contoh modal sederhana. Modal ini akan muncul di tengah layar dengan overlay gelap di belakangnya.</p>
         <div class="flex justify-end gap-3">
-          <button
-            onclick="closeModal('modal1')"
-            class="rounded-lg bg-gray-200 px-5 py-2 font-medium text-gray-700 transition duration-200 hover:bg-gray-300"
-          >
-            Tutup
-          </button>
-          <button
-            onclick="closeModal('modal1')"
-            class="rounded-lg bg-blue-500 px-5 py-2 font-medium text-white transition duration-200 hover:bg-blue-600"
-          >
-            OK
-          </button>
+          <button onclick="closeModal('modal1')" class="rounded-lg bg-gray-200 px-5 py-2 font-medium text-gray-700 transition duration-200 hover:bg-gray-300">Tutup</button>
+          <button onclick="closeModal('modal1')" class="rounded-lg bg-blue-500 px-5 py-2 font-medium text-white transition duration-200 hover:bg-blue-600">OK</button>
         </div>
       </div>
     </div>
 
     <!-- Modal 2: Modal dengan Animasi -->
     <div id="modal2" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50">
-      <div
-        id="modal2-content"
-        class="mx-4 w-full max-w-md scale-95 transform rounded-xl bg-white p-6 opacity-0 shadow-lg transition-all duration-200"
-      >
+      <div id="modal2-content" class="mx-4 w-full max-w-md scale-95 transform rounded-xl bg-white p-6 opacity-0 shadow-lg transition-all duration-200">
         <div class="mb-4 flex items-center gap-3">
           <div class="flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
             <svg class="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -128,24 +92,14 @@
           </div>
           <h3 class="text-xl font-bold text-gray-800">Dengan Animasi</h3>
         </div>
-        <p class="mb-6 text-sm text-gray-600">
-          Modal ini muncul dengan efek animasi scale dan fade in untuk pengalaman yang lebih smooth dan modern.
-        </p>
-        <button
-          onclick="closeModal('modal2')"
-          class="w-full rounded-lg bg-green-500 py-2.5 font-medium text-white transition duration-200 hover:bg-green-600"
-        >
-          Mengerti
-        </button>
+        <p class="mb-6 text-sm text-gray-600">Modal ini muncul dengan efek animasi scale dan fade in untuk pengalaman yang lebih smooth dan modern.</p>
+        <button onclick="closeModal('modal2')" class="w-full rounded-lg bg-green-500 py-2.5 font-medium text-white transition duration-200 hover:bg-green-600">Mengerti</button>
       </div>
     </div>
 
     <!-- Modal 3: Modal Konfirmasi -->
     <div id="modal3" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50">
-      <div
-        id="modal3-content"
-        class="mx-4 w-full max-w-md scale-95 transform rounded-xl bg-white p-6 opacity-0 shadow-lg transition-all duration-200"
-      >
+      <div id="modal3-content" class="mx-4 w-full max-w-md scale-95 transform rounded-xl bg-white p-6 opacity-0 shadow-lg transition-all duration-200">
         <div class="mb-4 flex items-center gap-3">
           <div class="flex h-12 w-12 items-center justify-center rounded-full bg-red-100">
             <svg class="h-6 w-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -159,22 +113,10 @@
           </div>
           <h3 class="text-xl font-bold text-gray-800">Konfirmasi Hapus</h3>
         </div>
-        <p class="mb-6 text-sm text-gray-600">
-          Apakah Anda yakin ingin menghapus data ini? Tindakan ini tidak dapat dibatalkan.
-        </p>
+        <p class="mb-6 text-sm text-gray-600">Apakah Anda yakin ingin menghapus data ini? Tindakan ini tidak dapat dibatalkan.</p>
         <div class="flex gap-3">
-          <button
-            onclick="closeModal('modal3')"
-            class="flex-1 rounded-lg bg-gray-200 py-2.5 font-medium text-gray-700 transition duration-200 hover:bg-gray-300"
-          >
-            Batal
-          </button>
-          <button
-            onclick="confirmDelete()"
-            class="flex-1 rounded-lg bg-red-500 py-2.5 font-medium text-white transition duration-200 hover:bg-red-600"
-          >
-            Hapus
-          </button>
+          <button onclick="closeModal('modal3')" class="flex-1 rounded-lg bg-gray-200 py-2.5 font-medium text-gray-700 transition duration-200 hover:bg-gray-300">Batal</button>
+          <button onclick="confirmDelete()" class="flex-1 rounded-lg bg-red-500 py-2.5 font-medium text-white transition duration-200 hover:bg-red-600">Hapus</button>
         </div>
       </div>
     </div>

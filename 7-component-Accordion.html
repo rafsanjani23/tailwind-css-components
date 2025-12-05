@@ -21,9 +21,7 @@
       <!-- Info Section -->
       <div class="mb-8 rounded-lg bg-white p-6 shadow-sm">
         <h2 class="mb-2 text-2xl font-bold text-gray-800">7. Component - Accordion (Tutup Buka)</h2>
-        <p class="text-sm text-gray-600">
-          Menunjukkan 3 variasi visual Accordion menggunakan Tailwind CSS dengan komentar edukatif setiap class penting.
-        </p>
+        <p class="text-sm text-gray-600">Menunjukkan 3 variasi visual Accordion menggunakan Tailwind CSS dengan komentar edukatif setiap class penting.</p>
       </div>
 
       <!-- Accordion Component -->
@@ -33,114 +31,65 @@
         <div class="space-y-4">
           <!-- Variasi 1: Basic -->
           <div class="overflow-hidden rounded-lg border border-gray-300">
-            <button
-              onclick="toggleAccordion('acc1')"
-              class="flex w-full items-center justify-between bg-gray-50 px-5 py-4 transition hover:bg-gray-100"
-            >
+            <button onclick="toggleAccordion('acc1')" class="flex w-full items-center justify-between bg-gray-50 px-5 py-4 transition hover:bg-gray-100">
               <span class="font-semibold text-gray-700">Variasi 1: Basic</span>
-              <svg
-                id="icon-acc1"
-                class="h-5 w-5 text-gray-600 transition-transform duration-200"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg id="icon-acc1" class="h-5 w-5 text-gray-600 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <div id="acc1" class="hidden border-t border-gray-200 bg-white px-5 py-4">
               <h4 class="mb-2 font-semibold text-gray-800">Apa itu Tailwind CSS?</h4>
-              <p class="text-sm leading-relaxed text-gray-600">
-                Tailwind CSS adalah framework utility-first yang memudahkan styling langsung di markup HTML.
-              </p>
+              <p class="text-sm leading-relaxed text-gray-600">Tailwind CSS adalah framework utility-first yang memudahkan styling langsung di markup HTML.</p>
             </div>
           </div>
 
           <!-- Variasi 2: With Background -->
           <div class="overflow-hidden rounded-lg border border-gray-300">
-            <button
-              onclick="toggleAccordion('acc2')"
-              class="flex w-full items-center justify-between bg-blue-500 px-5 py-4 text-white transition hover:bg-blue-600"
-            >
+            <button onclick="toggleAccordion('acc2')" class="flex w-full items-center justify-between bg-blue-500 px-5 py-4 text-white transition hover:bg-blue-600">
               <span class="font-semibold">Variasi 2: With Background</span>
-              <svg
-                id="icon-acc2"
-                class="h-5 w-5 transition-transform duration-200"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg id="icon-acc2" class="h-5 w-5 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <div id="acc2" class="hidden border-t border-blue-200 bg-blue-50 px-5 py-4">
               <h4 class="mb-2 font-semibold text-gray-800">Kenapa harus Tailwind CSS?</h4>
-              <p class="text-sm leading-relaxed text-gray-600">
-                Karena mempercepat proses development, lebih konsisten, dan mudah untuk responsive design.
-              </p>
+              <p class="text-sm leading-relaxed text-gray-600">Karena mempercepat proses development, lebih konsisten, dan mudah untuk responsive design.</p>
             </div>
           </div>
 
           <!-- Variasi 3: With Icon -->
           <div class="overflow-hidden rounded-lg border border-gray-300">
-            <button
-              onclick="toggleAccordion('acc3')"
-              class="flex w-full items-center justify-between bg-gray-50 px-5 py-4 transition hover:bg-gray-100"
-            >
+            <button onclick="toggleAccordion('acc3')" class="flex w-full items-center justify-between bg-gray-50 px-5 py-4 transition hover:bg-gray-100">
               <div class="flex items-center gap-3">
                 <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-purple-100">
                   <svg class="h-5 w-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M13 10V3L4 14h7v7l9-11h-7z"
-                    />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
                 <span class="font-semibold text-gray-700">Variasi 3: Rotating Icon</span>
               </div>
-              <svg
-                id="icon-acc3"
-                class="h-5 w-5 text-gray-600 transition-transform duration-200"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg id="icon-acc3" class="h-5 w-5 text-gray-600 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
               </svg>
             </button>
             <div id="acc3" class="hidden border-t border-gray-200 bg-white px-5 py-4">
               <h4 class="mb-2 font-semibold text-gray-800">Bagaimana cara belajar Tailwind?</h4>
-              <p class="text-sm leading-relaxed text-gray-600">
-                Mulai dengan dokumentasi resmi, praktik membuat komponen sederhana, dan eksplorasi utility classes yang
-                tersedia.
-              </p>
+              <p class="text-sm leading-relaxed text-gray-600">Mulai dengan dokumentasi resmi, praktik membuat komponen sederhana, dan eksplorasi utility classes yang tersedia.</p>
             </div>
           </div>
 
           <!-- Variasi 4: Multiple Items Open -->
           <div class="overflow-hidden rounded-lg border border-gray-300">
-            <button
-              onclick="toggleAccordionIndependent('acc4')"
-              class="flex w-full items-center justify-between bg-green-500 px-5 py-4 text-white transition hover:bg-green-600"
-            >
+            <button onclick="toggleAccordionIndependent('acc4')" class="flex w-full items-center justify-between bg-green-500 px-5 py-4 text-white transition hover:bg-green-600">
               <span class="font-semibold">Variasi 4: Independent Toggle</span>
-              <svg
-                id="icon-acc4"
-                class="h-5 w-5 transition-transform duration-200"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg id="icon-acc4" class="h-5 w-5 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <div id="acc4" class="hidden border-t border-green-200 bg-green-50 px-5 py-4">
               <h4 class="mb-2 font-semibold text-gray-800">Kapan menggunakan Tailwind?</h4>
               <p class="text-sm leading-relaxed text-gray-600">
-                Ideal untuk project yang butuh development cepat, prototype, atau ketika tim ingin konsistensi styling
-                tanpa menulis custom CSS berlebihan.
+                Ideal untuk project yang butuh development cepat, prototype, atau ketika tim ingin konsistensi styling tanpa menulis custom CSS berlebihan.
               </p>
             </div>
           </div>
@@ -152,13 +101,7 @@
               class="flex w-full items-center justify-between bg-linear-to-r from-purple-500 to-pink-500 px-5 py-4 text-white transition hover:from-purple-600 hover:to-pink-600"
             >
               <span class="font-semibold">Variasi 5: Smooth Animation</span>
-              <svg
-                id="icon-acc5"
-                class="h-5 w-5 transition-transform duration-300"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
+              <svg id="icon-acc5" class="h-5 w-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
